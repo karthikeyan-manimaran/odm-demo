@@ -1,0 +1,20 @@
+# Raw images and heavy ODM outputs
+project/images/*
+project/odm_orthophoto/*
+project/odm_georeferencing/*
+project/odm_texturing/*
+project/odm_meshing/*
+project/odm_filterpoints/*
+project/opensfm/*
+project/odm_dem/*
+project/*.tif
+project/*.laz
+project/*.obj
+project/*.ply
+
+# Keep the report and logs (small, useful to show)
+!project/odm_report/
+!project/*.log
+
+# System files
+.DS_Store
